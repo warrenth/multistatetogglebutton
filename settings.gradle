@@ -1,1 +1,1 @@
-include ':app', ':multitoggle'
+include ':multitoggle', ':app'

@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //배열, arrayList 등이 들어 갈 수 있어야한다.
-
+        // 테스트한다. 마스터에서 넣은것
     }
 }
