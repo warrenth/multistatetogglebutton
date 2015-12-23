@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/multistatetogglebutton.iml" filepath="$PROJECT_DIR$/multistatetogglebutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multitoggle/multitoggle.iml" filepath="$PROJECT_DIR$/multitoggle/multitoggle.iml" />
     </modules>
   </component>
 </project>
