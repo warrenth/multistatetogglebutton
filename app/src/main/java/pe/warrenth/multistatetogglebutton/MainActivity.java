@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         //배열, arrayList 등이 들어 갈 수 있어야한다.
         // 테스트한다. 마스터에서 넣은것
         //테스트 마스터 test2
+        //테스트 마스터 test222
     }
 }
