@@ -2,6 +2,13 @@ package pe.warrenth.multistatetogglebutton;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.ToggleButton;
+
+import pe.warrenth.multitoggle.inter.OnItemChangedListener;
+import pe.warrenth.multitoggle.widget.MultiToggleButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,9 +17,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //배열, arrayList 등이 들어 갈 수 있어야한다.
-        // 테스트한다. 마스터에서 넣은것
-        //테스트 마스터 test2
-        //테스트 마스터 test222
+        // view insert, default position,
+        MultiToggleButton mtb = (MultiToggleButton) findViewById(R.id.multitogglebutton);
+        mtb.setItemChangedListener(new OnItemChangedListener() {
+            @Override
+            public void onItemChanged(View v, int position) {
+                Log.d("warrenth", "position : " + position);
+            }
+        });
     }
 }
