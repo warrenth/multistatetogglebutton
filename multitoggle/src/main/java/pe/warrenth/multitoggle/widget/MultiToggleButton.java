@@ -1,19 +1,12 @@
 package pe.warrenth.multitoggle.widget;
 
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.os.Build;
-import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.Button;
 import android.widget.CompoundButton;
-import android.widget.ToggleButton;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 import pe.warrenth.multitoggle.R;
 import pe.warrenth.multitoggle.inter.OnItemChangedListener;
@@ -32,6 +25,7 @@ public class MultiToggleButton extends CompoundButton implements MultiCheckable{
 
     public void setItemChangedListener(OnItemChangedListener itemChangedListener) {
         this.itemChangedListener = itemChangedListener;
+        // test
     }
 
     public MultiToggleButton(Context context) {
